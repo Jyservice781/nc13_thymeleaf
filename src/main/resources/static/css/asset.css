@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#row-header {
+    height: 80px;
+    margin: 0px;
+    background-color:lightblue;
+    font-size: large;
+    align-items: center;
+    position: relative;
+    margin-bottom:50px;
+
+}
+
+.cat_wrap{
+    display: inline;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+.cat{
+    width: 70px;
+    height: auto;
+}
+.nav_bar{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    display: inline-block;
+}
+
+
+#row-footer{
+    height: 100px;
+    background-color:black;
+    text-align:center;
+    font-size:medium;
+    color:white;
+}
