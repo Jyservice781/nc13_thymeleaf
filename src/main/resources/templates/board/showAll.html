@@ -27,6 +27,7 @@
         </tr>
     </thead>
     <tbody>
+<!-- | location.href='@{/board/showOne/{id}(id=*{id})}'|   -->
         <tr th:each="b : ${list}" th:object="${b}" th:onclick="|location.href='@{/board/showOne/{id}(id=*{id})}'|">
             <td th:text="*{id}"></td>
             <!--
